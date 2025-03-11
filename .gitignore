@@ -1,6 +1,16 @@
-/target
-/Cargo.lock
+# Ignore nested repositories and build artifacts
+fflonk_stylus_verifier/
 
-/node_modules
-./node_modules
+# Node.js dependencies
+node_modules/
+
+# Common editor and OS files
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment files
 .env
+.env.local
