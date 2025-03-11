@@ -1,0 +1,15 @@
+{
+  "name": "fflonk-verifier-client",
+  "version": "1.0.0",
+  "description": "Client to interact with the Fflonk Verifier Stylus contract",
+  "main": "verify_fflonk.js",
+  "scripts": {
+    "verify": "node verify_fflonk.js",
+    "verify:web3": "node verify_web3.js"
+  },
+  "dependencies": {
+    "ethers": "^5.7.2",
+    "dotenv": "^16.0.3",
+    "web3": "^1.9.0"
+  }
+} 
